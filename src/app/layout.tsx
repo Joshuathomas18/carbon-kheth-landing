@@ -8,8 +8,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Carbon_kheth | The Precision Monolith for Global Carbon Markets",
-  description: "Drop your smallholder MRV onboarding CAC from ₹2,000+ to ₹200 using our WhatsApp-native, Verra-compliant AI pipeline.",
+  title: "Carbon Kheth | The Precision Monolith for Global Carbon Markets",
+  description: "Drop your smallholder MRV onboarding CAC from ₹1,500+ to ₹400 using our WhatsApp-native, Verra-compliant AI pipeline.",
 };
 
 export default function RootLayout({

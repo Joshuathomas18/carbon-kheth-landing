@@ -5,7 +5,7 @@ export const Footer = () => {
         <div className="space-y-4">
           <div className="flex items-center gap-2">
             <div className="w-6 h-6 bg-primary rounded flex items-center justify-center font-bold text-black text-xs">K</div>
-            <span className="text-lg font-bold tracking-tighter text-white">Carbon_kheth</span>
+            <span className="text-lg font-bold tracking-tighter text-white">Carbon Kheth</span>
           </div>
           <p className="max-w-xs text-sm text-secondary leading-relaxed">
             The Precision Monolith for Global Carbon Markets. Built for high-stakes enterprise MRV scalability.
@@ -41,7 +41,7 @@ export const Footer = () => {
       </div>
       
       <div className="max-w-7xl mx-auto mt-12 pt-8 border-t border-outline-ghost flex justify-between items-center text-[10px] text-secondary/50 uppercase tracking-[0.2em] font-mono">
-        <span>© 2026 Carbon_kheth Labs</span>
+        <span>© 2026 Carbon Kheth Labs</span>
         <span>Secure Orbital Infrastructure</span>
       </div>
     </footer>

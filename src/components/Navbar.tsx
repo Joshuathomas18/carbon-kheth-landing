@@ -5,7 +5,7 @@ export const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-8 py-4 glass">
       <div className="flex items-center gap-2">
         <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center font-bold text-black italic">K</div>
-        <span className="text-xl font-bold tracking-tighter text-white">Carbon_kheth</span>
+        <span className="text-xl font-bold tracking-tighter text-white">Carbon Kheth</span>
       </div>
       
       <div className="hidden md:flex items-center gap-8 text-sm font-medium text-secondary">
