@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+:root {
+  --background: #131315;
+  --foreground: #ffffff;
+  --primary: #39ff14;
+  --primary-dim: #2ae500;
+  --secondary: #94a3b8;
+  --surface: #1c1b1d;
+  --surface-high: #2a2a2c;
+  --surface-highest: #353437;
+  --outline: rgba(133, 150, 124, 0.15);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-dim: var(--primary-dim);
+  --color-secondary: var(--secondary);
+  --color-surface: var(--surface);
+  --color-surface-high: var(--surface-high);
+  --color-surface-highest: var(--surface-highest);
+  --color-outline-ghost: var(--outline);
+  
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Glassmorphism Utility */
+.glass {
+  background: rgba(28, 27, 29, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--outline);
+}
+
+/* Neon Glow Utility */
+.glow-primary {
+  box-shadow: 0 0 20px rgba(57, 255, 20, 0.15);
+}
+
+.text-glow {
+  text-shadow: 0 0 10px rgba(57, 255, 20, 0.3);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--surface-high);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--surface-highest);
+}
