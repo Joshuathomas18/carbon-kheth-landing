@@ -5,8 +5,8 @@ import React, { useState } from 'react';
 export const Calculator = () => {
   const [farmers, setFarmers] = useState(1000);
   
-  const traditionalCost = farmers * 2000;
-  const carbonKhethCost = farmers * 200;
+  const traditionalCost = farmers * 1500;
+  const carbonKhethCost = farmers * 400;
   const savings = traditionalCost - carbonKhethCost;
 
   const formatCurrency = (val: number) => {

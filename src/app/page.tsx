@@ -25,7 +25,7 @@ export default function Home() {
           </h1>
           
           <p className="max-w-2xl text-lg md:text-xl text-secondary leading-relaxed mb-12">
-            Drop your smallholder MRV onboarding CAC from <span className="text-white font-semibold italic">₹2,000+</span> to <span className="text-primary font-bold">₹200</span> using our WhatsApp-native, Verra-compliant AI pipeline.
+            Drop your smallholder MRV onboarding CAC from <span className="text-white font-semibold italic">₹1,500+</span> to <span className="text-primary font-bold">₹400</span> using our WhatsApp-native, Verra-compliant AI pipeline.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">
