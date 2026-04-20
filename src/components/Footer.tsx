@@ -32,8 +32,9 @@ export const Footer = () => {
           <div className="space-y-3">
             <h4 className="text-sm font-bold text-white uppercase tracking-widest">Connect</h4>
             <ul className="space-y-2 text-sm text-secondary font-mono tracking-tighter">
-              <li><a href="https://calendly.com/placeholder" className="text-primary hover:underline">Book a Call</a></li>
-              <li><a href="mailto:pilot@carbonkheth.com" className="hover:text-primary">Email Support</a></li>
+              <li><a href="https://calendly.com/joshjothom05/30min" className="text-primary hover:underline">Book a Call</a></li>
+              <li><a href="mailto:joshjothom05@gmail.com" className="hover:text-primary">Direct Email</a></li>
+              <li><a href="https://www.linkedin.com/in/joshua-thomas-b71023202/" className="hover:text-primary">LinkedIn Profile</a></li>
             </ul>
           </div>
         </div>

@@ -11,11 +11,11 @@ export const Navbar = () => {
       <div className="hidden md:flex items-center gap-8 text-sm font-medium text-secondary">
         <Link href="#features" className="hover:text-primary transition-colors">Features</Link>
         <Link href="#calculator" className="hover:text-primary transition-colors">Calculator</Link>
-        <Link href="#compliance" className="hover:text-primary transition-colors">Compliance</Link>
+        <Link href="#contact" className="hover:text-primary transition-colors">Contact</Link>
       </div>
 
       <Link 
-        href="https://calendly.com/placeholder" 
+        href="https://calendly.com/joshjothom05/30min" 
         className="px-5 py-2.5 bg-primary text-black font-bold rounded-md hover:bg-primary-dim transition-all text-sm glow-primary"
       >
         Book a Pilot
